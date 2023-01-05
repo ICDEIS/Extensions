@@ -1,0 +1,21 @@
+{
+   "name": "IC Deis",
+   "description": "An extension by IC Deis",
+   "version": "0.1",
+   "manifest_version": 3,
+   "icons": {
+      "16": "/renn.png",
+      "48": "/renn.png",
+      "128": "/renn.png"
+   },
+   "action": {
+      "default_icon": "/renn.png",
+      "default_title": "by IC Deis",
+      "default_popup": "avena.html"
+   },
+   "options_page": "options.html",
+   "permissions": ["storage", "alarms", "notifications"],
+   "background": {
+      "service_worker": "/background.js"
+   }
+}
